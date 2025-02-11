@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-
 
 namespace Lista_09
 {
@@ -8,7 +6,15 @@ namespace Lista_09
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("test");
+            int[] numerosInt = [1, 2, 3, 4, 5];
+
+            Console.WriteLine("Itens do vetor 1: ");
+            for (int i = 0; i < numerosInt.Length; i++)
+            {
+                Console.WriteLine(i);
+            }
+             
+            
         }
     }
 }
