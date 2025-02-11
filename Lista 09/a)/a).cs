@@ -4,8 +4,11 @@ using System.Collections.Generic;
 
 namespace Lista_09
 {
-  public static void main()
-  {
-      Console.WriteLine("test");
-  }
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("test");
+        }
+    }
 }
