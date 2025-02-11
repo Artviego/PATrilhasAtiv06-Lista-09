@@ -9,7 +9,7 @@ namespace Lista_09
             int[] numerosInt = new int[] { 1, 2, 3, 4, 5 };
 
             Console.WriteLine("Itens do vetor 1: ");
-            for (int i = 0; i < numerosInt.Length; i++)
+            for (int i = 1; i < numerosInt.Length; i++)
             {
                 Console.WriteLine(i);
             }
