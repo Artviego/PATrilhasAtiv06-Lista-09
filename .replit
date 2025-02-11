@@ -1,0 +1,7 @@
+modules = ["dotnet-7.0"]
+run = "dotnet run"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "dotnet run"]
