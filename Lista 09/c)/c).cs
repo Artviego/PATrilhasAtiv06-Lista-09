@@ -1,10 +1,11 @@
+
 using System;
 
 public class Program
 {
   public static void Main()
   {
-    decimal[] numeroDec  = new decimal[3];
+    decimal[] numeroDec = new decimal[3];
     double[] medias = new double[3];
 
     //Coleta os números decimais
@@ -14,11 +15,13 @@ public class Program
       numeroDec[i] = Convert.ToDecimal(Console.ReadLine());
 
       // Calcula a média dos decimais
-      medias[i] = (float)(numeroDec[i + i]/2m);
+      medias[i] = (double)(numeroDec[i] / 2m);
     }
 
     // Imprima a listagem com os resultados
-        Console.WriteLine($"\nMédia dos decimais {medias[i]}");
-
+    for (int i = 0; i < 3; i++)
+    {
+      Console.WriteLine($"\nMédia do {i + 1}º decimal: {medias[i]}");
+    }
   }
 }
