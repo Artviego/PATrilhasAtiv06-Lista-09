@@ -6,7 +6,6 @@ public class Program
   public static void Main()
   {
     decimal[] numeroDec = new decimal[3];
-    double[] medias = new double[3];
 
     //Coleta os números decimais
     for (int i = 0; i < 3; i++)
@@ -14,14 +13,17 @@ public class Program
       Console.WriteLine($"Digite o {i + 1}º número decimal ");
       numeroDec[i] = Convert.ToDecimal(Console.ReadLine());
 
-      // Calcula a média dos decimais
-      medias[i] = (double)(numeroDec[i] / 2m);
+      double soma = 0;
+      foreach([i] in numeroDec[3])
+      {
+        soma += [i];
+      }
     }
 
-    // Imprima a listagem com os resultados
-    for (int i = 0; i < 3; i++)
-    {
-      Console.WriteLine($"\nMédia do {i + 1}º decimal: {medias[i]}");
-    }
+    //Calculando a média
+    decimal media = soma/2;
+
+    //Exibe o resultado
+    Console.WriteLine($"\nA média dos decimais somado é de: {media}");
   }
 }
