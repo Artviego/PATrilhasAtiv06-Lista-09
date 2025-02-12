@@ -11,13 +11,13 @@ public class project
     for (int i = 0; i < 5; i++)
     {
       Console.Write($"Digite o {i + 1}º número do 1º vetor: ");
-      numero1[] = Convert.ToInt(Console.ReadLine());
+      numero1[i] = Convert.ToInt32(Console.ReadLine());
     }
 
     for (int j = 0; j < 5; j++)
     {
       Console.Write($"Digite o {j + 2}º número do 2º vetor: ");
-      numero2[] = Convert.ToInt(Console.ReadLine());
+      numero2[j] = Convert.ToInt32(Console.ReadLine());
     }
   }
 }
