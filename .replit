@@ -12,7 +12,8 @@ runButton = "Run"
 [[workflows.workflow]]
 name = "Run"
 author = 34067025
+mode = "parallel"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd 'Lista 09/a)' && dotnet run"
+args = "cd 'Lista 09/b)' && dotnet run"
