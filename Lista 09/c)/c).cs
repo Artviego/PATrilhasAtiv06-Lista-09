@@ -5,7 +5,7 @@ public class Program
   public static void Main()
   {
     decimal[] numeroDec  = new decimal[3];
-    double[] medias[] = new double[3];
+    double[] medias = new double[3];
 
     //Coleta os números decimais
     for (int i = 0; i < 3; i++)
@@ -18,7 +18,10 @@ public class Program
     }
 
     // Imprima a listagem com os resultados
-    Console.WriteLine($"\nMédia dos números decimais: {medias[i]}");
+    for (int i = 0; i < 3; i++)
+    {
+        Console.WriteLine($"\nMédia do {i+1}º número decimal: {medias[i]}");
+    }
 
   }
 }
