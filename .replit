@@ -16,4 +16,4 @@ mode = "parallel"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd 'Lista 09/b)' && dotnet run"
+args = "cd 'Lista 09/c)' && dotnet run"

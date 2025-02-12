@@ -4,9 +4,9 @@ class Program
 {
     static void Main()
     {
-      string[] nomes = new string[5];
-      double[,] notas = new double[5, 2];
-      double[] medias = new double[5];
+      string[] nomes = new stirng[5];
+      double[,] notsa = new double[5, 2];
+      double[] media = new double[5];
 
 
       //Coleta os dados dos alunos
@@ -34,7 +34,5 @@ class Program
       {
          Console.WriteLine($"{nomes[i]}\t{notas[i, 0]}\t{notas[i, 1]}\t{medias[i]:F2}");
       }
-
-      Console.ReadKey(true);
     }
 }
