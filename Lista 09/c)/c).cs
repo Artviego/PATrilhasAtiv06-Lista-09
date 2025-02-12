@@ -6,21 +6,21 @@ public class Program
   public static void Main()
   {
     int[] numMaior = new int[3];
+    int maior = 0;
 
-    //Coleta os números decimais
+    //Coleta os números inteiros
     for (int i = 0; i < 3; i++)
     {
       Console.WriteLine($"Digite o {i + 1}º número inteiro: ");
-      numMaior[i] = Convert.ToInt(Console.ReadLine());
+      numMaior[i] = Convert.ToInt32(Console.ReadLine());
 
-      int maior = 0;
-      if (vetorNum[i] > maior)
+      if (numMaior[i] > maior)
       {
-        maior = vetorNum[i];
+        maior = numMaior[i];
       }
-      Console.WriteLine($"\nO maior número é o {maior}");
     }
 
+    Console.WriteLine($"\nO maior número é o {maior}");
     Console.ReadKey(true);
   }
 }
