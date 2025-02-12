@@ -1,0 +1,15 @@
+C:\Users\Arthur\source\repos\Lista09\g)\g)\bin\Debug\net8.0\g).exe
+C:\Users\Arthur\source\repos\Lista09\g)\g)\bin\Debug\net8.0\g).deps.json
+C:\Users\Arthur\source\repos\Lista09\g)\g)\bin\Debug\net8.0\g).runtimeconfig.json
+C:\Users\Arthur\source\repos\Lista09\g)\g)\bin\Debug\net8.0\g).dll
+C:\Users\Arthur\source\repos\Lista09\g)\g)\bin\Debug\net8.0\g).pdb
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\g).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\g).AssemblyInfoInputs.cache
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\g).AssemblyInfo.cs
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\g).csproj.CoreCompileInputs.cache
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\g).sourcelink.json
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\g).dll
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\refint\g).dll
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\g).pdb
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\g).genruntimeconfig.cache
+C:\Users\Arthur\source\repos\Lista09\g)\g)\obj\Debug\net8.0\ref\g).dll
