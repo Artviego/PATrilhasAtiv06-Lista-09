@@ -34,5 +34,7 @@ class Program
       {
          Console.WriteLine($"{nomes[i]}\t{notas[i, 0]}\t{notas[i, 1]}\t{medias[i]:F2}");
       }
+
+      Console.ReadKey(true);
     }
 }
