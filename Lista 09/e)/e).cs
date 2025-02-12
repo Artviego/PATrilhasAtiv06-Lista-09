@@ -1,26 +1,34 @@
 using System;
 
-public class Program
+namespace exE
 {
-  public static void Main()
+  class Program
   {
-    int[] numMenor = new int[3];
-    int menor = 0;
-
-    //Coleta os números inteiros
-    for (int i = 0; i < 3; i++)
+    public static void Main(string[] args)
     {
-      Console.WriteLine($"Digite o {i + 1}º número inteiro: ");
-      numMenor[i] = Convert.ToInt32(Console.ReadLine());
-      menor = numMenor
-      
-      if (menor > numMenor[i])
-      {
-        menor = numMaior[i];
-      }
-    }
 
-    Console.WriteLine($"\nO menor número é o {menor}");
-    Console.ReadKey(true);
+      int menor = 0;
+
+      int[] numeros = {4, 2, 8, 2, 15, 7};
+
+      for (int i = 0 ; i < numeros.Length; i++) {
+        Console.Write("{0}, ", numeros[i]);
+        menor = numeros[i];
+
+        for(int j = 0; j < numeros.Length; j++){
+
+          if (menor > numeros[j]) {
+            menor = numeros[j];
+          }
+        }
+
+
+
+      }
+      Console.WriteLine("\nO menor é: {0}",menor);
+
+      Console.Write("Press any key to continue . . . ");
+      Console.ReadKey(true);
+    }
   }
 }
